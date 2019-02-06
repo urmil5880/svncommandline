@@ -1,0 +1,16 @@
+Right click open terminal
+sudo chmod -R 777 '/var/www/html/'  
+
+svn user change
+svn co svn://192.168.1.113/agathossci/ agathossci --username urmil
+
+add commit 
+svn commit --username urmil --password urmil123
+
+svn co svn://192.168.1.113/agathossci/
+
+svn add * --force
+svn commit -m "add initial source code "  
+
+svn update
+svn up
